@@ -1,3 +1,35 @@
 .navbar-item img {
   max-height: 3rem;
 }
+
+.login__button:hover {
+  color: white;
+}
+
+.banner .hero-body .container {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.hero-body h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.hero-body h2 {
+  line-height: 1.4;
+}
+
+.learn-more {
+  padding: 50px;
+}
+
+.learn-more__text {
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 5px;
+}
+
+.learn-more__text:hover,
+.learn-more__icon:hover {
+  cursor: pointer;
+}
