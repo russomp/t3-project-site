@@ -8,6 +8,7 @@
 
 .banner .hero-body .container {
   background-color: rgba(255, 255, 255, 0.4);
+  padding: 15px;
 }
 
 .hero-body h1 {
@@ -19,17 +20,38 @@
   line-height: 1.4;
 }
 
-.learn-more {
+.banner .button {
+  margin-top: 15px;
+  text-align: left;
+  width: 300px;
+}
+
+.banner .button:hover {
+  background-color: danger;
+  color: white;
+}
+
+.banner .button svg {
+  margin-left: 20px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.banner .button:hover svg {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.to-next-section {
   padding: 50px;
 }
 
-.learn-more__text {
+.to-next-section__text {
   font-size: 1.2rem;
   font-weight: 200;
   padding: 5px;
 }
 
-.learn-more__text:hover,
-.learn-more__icon:hover {
+.to-next-section__text:hover,
+.to-next-section__icon:hover {
   cursor: pointer;
 }
