@@ -24,7 +24,7 @@ git push -u origin add-file-x-branch
 
 ## Directory structure
 
-![Folder organization spec](https://github.com/russomp/t3-project-site/blob/master/directory-structure.png)
+![Folder organization spec](https://github.com/russomp/t3-project-site/blob/master/assets/img/directory-structure.png)
 
 See full guidlines [here](https://greenbay.usc.edu/csci577/fall2018/uploads/assignments/ProjectWebsiteGuidelineFall18v1.pdf)
 
