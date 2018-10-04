@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-  <title>Progress Reports</title>
+  <title>Client Meeting Notes</title>
 </head>
 
 <body>
