@@ -83,7 +83,6 @@
               <th>Filename</th>
               <th>Type</th>
               <th>Size <small>(bytes)</small></th>
-              <th>Date Modified</th>
             </tr>
           </thead>
           <tbody>
@@ -184,7 +183,6 @@
           <td><a href='./$namehref'>$name</a></td>
           <td>$extn</td>
           <td>$size</td>
-          <td sorttable_customkey='$timekey'>$modtime</td>
         </tr>");
       }
     }
