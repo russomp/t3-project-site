@@ -142,8 +142,7 @@
       $timekey=date("YmdHis", filemtime($dirArray[$index]));
       
       // Prettifies File Types, add more to suit your needs.
-      echo($extn);
-      switch ($extn){
+      switch ($extn) {
         case "php": $extn="php"; break;
 
         case "png": $extn="PNG Image"; break;

@@ -74,9 +74,6 @@
   <section id="project-details" class="hero is-fullheight">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">
-          No documents found
-        </h1>
         <table class="table sortable">
           <thead>
             <tr>
@@ -144,7 +141,6 @@
       $timekey=date("YmdHis", filemtime($dirArray[$index]));
       
       // Prettifies File Types, add more to suit your needs.
-      echo($extn);
       switch ($extn){
         case "php": $extn="php"; break;
 
