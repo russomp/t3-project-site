@@ -43,6 +43,7 @@
 
 .to-next-section {
   padding: 50px;
+  transition: all 0.8s ease-in-out;
 }
 
 .to-next-section__text {
@@ -54,4 +55,35 @@
 .to-next-section__text:hover,
 .to-next-section__icon:hover {
   cursor: pointer;
+  transform: scale(1.1);
+}
+
+.subtitle a {
+  text-decoration: underline;
+}
+
+.dashboard-column {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dashboard {
+  display: inline-block;
+
+  transition: transform 0.5s ease-in;
+  vertical-align: middle;
+}
+
+tr td {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media only screen and (min-width: 769px) {
+  .dashboard:hover {
+    cursor: pointer;
+    transform: scale(1.7);
+    transform-origin: right;
+    transition: transform 0.5s ease-out;
+  }
 }

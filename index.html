@@ -1,236 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    ></script>
+    <title>T3 Discovery Tool</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-  <title>T3 Discovery Tool</title>
-</head>
-
-<body>
-  <nav class="navbar is-fixed-top">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="./">
-        <img src="assets/img/t3-nav-logo.png" alt="Team 03 logo">
-      </a>
-      <div class="navbar-burger burger" data-target="main-navbar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-
-    <div id="main-navbar" class="navbar-menu">
-      <div class="navbar-start">
+  <body>
+    <nav class="navbar is-fixed-top">
+      <div class="navbar-brand">
         <a class="navbar-item" href="./">
-          Home
+          <img src="assets/img/t3-nav-logo.png" alt="Team 03 logo" />
         </a>
-        <a class="navbar-item" href="#section-2">
-          About
-        </a>
-        <a class="navbar-item" href="#section-3">
-          Client
-        </a>
-        <a class="navbar-item" href="#section-4">
-          Team
-        </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">
-            Docs
-          </a>
-          <div class="navbar-dropdown is-boxed">
-            <a class="navbar-item" href="PR/">
-              Progress reports
-            </a>
-            <a class="navbar-item" href="CMN/">
-              Meeting notes
-            </a>
-            <a class="navbar-item" href="Exploration/">
-              Exploration docs
-            </a>
-            <a class="navbar-item" href="Valuation/">
-              Valuation docs
-            </a>
-            <a class="navbar-item" href="Foundations/">
-              Foundations docs
-            </a>
-            <a class="navbar-item" href="CodeReview/">
-              Code Review
-            </a>
-            <a class="navbar-item" href="IIVV/">
-              IIV & V
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item" href="FD/">
-              Final deliverable
-            </a>
-          </div>
+        <div class="navbar-burger burger" data-target="main-navbar">
+          <span></span> <span></span> <span></span>
         </div>
       </div>
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="field is-grouped">
-            <p class="control">
-              <a class="button is-black" href="https://github.com/russomp/t3-project-site" target="_blank">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>GitHub</span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <section id="section-1" class="hero is-fullheight banner" style="background-image: url('assets/img/discovery-tool.png'); background-size: cover; background-position: center;">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title banner__title">
-          Discover top trends. Create better <br> content. Deliver targeted ads.
-        </h1>
-        <h2 class="subtitle banner__subtitle">
-          Our content discovery tool tracks trending topics across the web, and <br> can help you deliver fresh,
-          relevant
-          content that your users will love.
-        </h2>
-        <a id="c2a-btn" class="button is-danger is-outlined is-large">Explore the tool <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </div>
-    <div class="hero-foot">
-      <div class="container has-text-centered to-next-section">
-        <div class="icon to-next-section__icon">
-          <i class="fas fa-angle-down fa-3x"></i>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="section-2" class="hero is-danger is-fullheight is-bold project-details">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
-          Discovery Tool
-        </h1>
-        <h2 class="subtitle">
-          The discovery tool is currently in alpha. It is being worked on as part of CS577a at USC, in collaboration
-          with System1 over
-          the Fall 2018 semester. The preliminary tool has been envisioned as a web-based system that allows
-          advertisers
-          and content creators to identify trending topics and products.
-          <br>
-          <br> Our data and trend reporting can be used by clients to spark ideas for original content and product
-          expansion.
-          It can also be used at System 1 internally.
-        </h2>
-      </div>
-    </div>
-    <div class="hero-foot">
-      <div class="container has-text-centered to-next-section">
-        <div class="icon to-next-section__icon">
-          <i class="fas fa-angle-down fa-3x"></i>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="section-3" class="hero is-info is-fullheight is-bold client-details">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns has-text-centered ">
-          <div class="column">
-            <div class="box">
-              <h1>
-                <img src="assets/img/system1-logo.png" alt="">
-              </h1>
-              <h2>
-                Led by Linda Suen
-              </h2>
-            </div>
-          </div>
-          <div class="column">
-            <div class="box">
-              <h1>
-                USC
-              </h1>
-              <h2>
-                cs577a Fl2018
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-foot">
-      <div class="container has-text-centered to-next-section">
-        <div class="icon to-next-section__icon">
-          <i class="fas fa-angle-down fa-3x"></i>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="section-4" class="hero is-large team-details">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
-          Team Members
-        </h1>
-        <h2 class="subtitle">
-          <table class="table">
-            <tbody>
-              <tr>
-                <th>Name</th>
-                <th>Role</th>
-              </tr>
-              <tr>
-                <td>Shenghao Tang</td>
-                <td>Team Member</td>
-              </tr>
-              <tr>
-                <td>Xizhao Deng</td>
-                <td>Team Member</td>
-              </tr>
-              <tr>
-                <td>Fan Zhang</td>
-                <td>Team Member</td>
-              </tr>
-              <tr>
-                <td>Guancheng Liu</td>
-                <td>Team Member</td>
-              </tr>
-              <tr>
-                <td>Yiming Zhang</td>
-                <td>Team Member</td>
-              </tr>
-              <tr>
-                <td>Jingzhou Hong</td>
-                <td>Team Member</td>
-              </tr>
-              <tr>
-                <td>Joshua Bendig</td>
-                <td>Team Member</td>
-              </tr>
-              <tr>
-                <td>Michael Russo</td>
-                <td>Team Member</td>
-              </tr>
-            </tbody>
-          </table>
-        </h2>
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        Banner image created by freepik.com
-      </p>
-    </div>
-  </footer>
-  <script src="assets/js/main.js"></script>
-</body>
 
+      <div id="main-navbar" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="./"> Home </a>
+          <a class="navbar-item" href="#section-2"> About </a>
+          <a class="navbar-item" href="#section-3"> Team </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#"> Docs </a>
+            <div class="navbar-dropdown is-boxed">
+              <a class="navbar-item" href="PR/"> Progress reports </a>
+              <a class="navbar-item" href="CMN/"> Meeting notes </a>
+              <a class="navbar-item" href="Exploration/"> Exploration docs </a>
+              <a class="navbar-item" href="Valuation/"> Valuation docs </a>
+              <a class="navbar-item" href="Foundations/"> Foundations docs </a>
+              <a class="navbar-item" href="Development/"> Development docs </a>
+              <a class="navbar-item" href="CodeReview/"> Code Review </a>
+              <a class="navbar-item" href="IIVV/"> IIV & V </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item" href="FD/"> Final deliverable </a>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a
+                  class="button is-black"
+                  href="https://github.com/russomp/t3-project-site"
+                  target="_blank"
+                >
+                  <span class="icon"> <i class="fab fa-github"></i> </span>
+                  <span>GitHub</span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section
+      id="section-1"
+      class="hero is-fullheight banner"
+      style="background-image: url('assets/img/discovery-tool.png'); background-size: cover; background-position: center;"
+    >
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title banner__title">
+            An idea management and goal tracking <br />
+            tool built for CMS teams
+          </h1>
+          <h2 class="subtitle banner__subtitle">
+            Our idea management tool enables product managers to set, track and
+            assign content goals at the touch <br />
+            of a button, while making it easy for content contributors to pitch
+            new article ideas that can now <br />
+            be approved in minutes
+          </h2>
+          <a id="c2a-btn" class="button is-danger is-outlined is-large"
+            >Explore the tool <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="container has-text-centered to-next-section">
+          <div class="icon to-next-section__icon">
+            <i class="fas fa-angle-down fa-3x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="section-2"
+      class="hero is-danger is-fullheight is-bold project-details"
+    >
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-two-fifths">
+              <h1 class="title">The project</h1>
+              <h2 class="subtitle">
+                The idea management tool is currently in beta. It is being
+                worked on as part of
+                <a
+                  href="https://greenbay.usc.edu/csci577/fall2018/"
+                  target="_blank"
+                  >CS577a</a
+                >
+                at USC, in collaboration with
+                <a href="https://system1.com/" target="_blank">System1</a> over
+                the Fall 2018 semester. <br />
+                <br />
+                The current product iteration attempts to streamline the idea
+                management and content approval process by allowing CMS
+                administrators to set and track content goals for their team in
+                an easy to use webapp. It also allows content contributors to
+                pitch ideas for admin approval, and monitor their personal and
+                team progress more granularly.<br />
+                <br />
+                The core web application was developed using python Flask for
+                the backend API with a React component library on the frontend.
+              </h2>
+            </div>
+            <div class="column dashboard-column">
+              <img class="dashboard" src="./assets/img/prototype.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="container has-text-centered to-next-section">
+          <div class="icon to-next-section__icon">
+            <i class="fas fa-angle-down fa-3x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-3" class="hero is-large team-details">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">The team</h1>
+          <h2 class="subtitle">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Primary Role</th>
+                  <th>Secondary Role</th>
+                  <th>Email</th>
+                  <th>Github</th>
+                </tr>
+                <!-- josh -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/josh.jpeg"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/joshuabendig/"
+                      target="_blank"
+                    >
+                      Joshua Bendig
+                    </a>
+                  </td>
+                  <td>IIV&V</td>
+                  <td>Requirements Engineer</td>
+                  <td>bendig@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/jlbendig" target="_blank">
+                      @jlbendig
+                    </a>
+                  </td>
+                </tr>
+                <!-- kerry -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/kerry.jpeg"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/xizhaodeng/"
+                      target="_blank"
+                    >
+                      Xizhao (Kerry) Deng
+                    </a>
+                  </td>
+                  <td>Project Manager</td>
+                  <td>Life Cycle Planner</td>
+                  <td>xizhaode@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/KKsan" target="_blank">
+                      @KKsan
+                    </a>
+                  </td>
+                </tr>
+                <!-- hong -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/blank.png"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/jingzhouh"
+                      target="_blank"
+                    >
+                      Jingzhou Hong
+                    </a>
+                  </td>
+                  <td>Requirements Engineer</td>
+                  <td>Prototyper</td>
+                  <td>jingzhoh@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/hongjz" target="_blank">
+                      @hongjz
+                    </a>
+                  </td>
+                </tr>
+                <!-- guancheng -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/guancheng.jpeg"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/guanchengliu"
+                      target="_blank"
+                    >
+                      Guancheng Liu
+                    </a>
+                  </td>
+                  <td>Tester</td>
+                  <td>Quality Engineer</td>
+                  <td>guanchen@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/guanchengliu17" target="_blank">
+                      @guanchengliu17
+                    </a>
+                  </td>
+                </tr>
+                <!-- michael -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/michael.jpeg"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/russomp"
+                      target="_blank"
+                    >
+                      Michael Russo
+                    </a>
+                  </td>
+                  <td>Software Architect</td>
+                  <td>Prototyper</td>
+                  <td>russomp@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/russomp" target="_blank">
+                      @russomp
+                    </a>
+                  </td>
+                </tr>
+                <!-- Shenghao -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/blank.png"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/shenghao-tang-085797b6/"
+                      target="_blank"
+                    >
+                      Shenghao Tang
+                    </a>
+                  </td>
+                  <td>Feasibility Analyst</td>
+                  <td>System Architect</td>
+                  <td>shenghat@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/TangBB" target="_blank">
+                      @TangBB
+                    </a>
+                  </td>
+                </tr>
+                <!-- Fan -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/fan.jpeg"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/fanzhang4530/"
+                      target="_blank"
+                    >
+                      Fan Zhang
+                    </a>
+                  </td>
+                  <td>Software Architect</td>
+                  <td>Prototyper</td>
+                  <td>shenghat@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/Fan4530" target="_blank">
+                      @Fan4530
+                    </a>
+                  </td>
+                </tr>
+                <!-- yiming -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/yiming.jpeg"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/yimingzh/"
+                      target="_blank"
+                    >
+                      Yiming Zhang
+                    </a>
+                  </td>
+                  <td>System Architect</td>
+                  <td>Prototyper</td>
+                  <td>yimingzh@usc.edu</td>
+                  <td>
+                    <a href="https://github.com/nickzym" target="_blank">
+                      @nickzym
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </h2>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+          <h1 class="title">The client</h1>
+          <h2 class="subtitle">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Role</th>
+                  <th>Company</th>
+                </tr>
+                <!-- linda -->
+                <tr>
+                  <td>
+                    <figure class="image is-96x96">
+                      <img
+                        class="is-rounded"
+                        src="./assets/img/team/linda.jpeg"
+                      />
+                    </figure>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/lindasuen/"
+                      target="_blank"
+                    >
+                      Linda Suen
+                    </a>
+                  </td>
+                  <td>Director of Product Management, Data Science</td>
+                  <td>
+                    <a href="https://system1.com/" target="_blank">@System1</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <h4>
+          Website built by
+          <a href="https://github.com/russomp" target="_blank"> @russomp </a>
+          with lots of ☕
+        </h4>
+        <p>Banner image created by freepik.com</p>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
