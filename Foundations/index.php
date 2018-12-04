@@ -24,7 +24,6 @@
         <span></span>
       </div>
     </div>
-
     <div id="main-navbar" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href="../">
@@ -59,6 +58,12 @@
             <a class="navbar-item" href="../Foundations/">
               Foundations docs
             </a>
+            <a class="navbar-item" href="../Development/">
+              Development docs
+            </a>
+            <a class="navbar-item" href="../CodeReview/">
+              Code Review
+            </a>
             <a class="navbar-item" href="../IIVV/">
               IIV & V
             </a>
@@ -74,6 +79,7 @@
   <section id="project-details" class="hero is-fullheight">
     <div class="hero-body">
       <div class="container">
+        <br><br><br>
         <table class="table sortable">
           <thead>
             <tr>
@@ -141,7 +147,7 @@
       $modtime=date("M j Y g:i A", filemtime($dirArray[$index]));
       $timekey=date("YmdHis", filemtime($dirArray[$index]));
       
-      // Prettifies File Types, add more to suit your needs.s
+      // Prettifies File Types, add more to suit your needs.
       switch ($extn){
         case "php": $extn="php"; break;
 

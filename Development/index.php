@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-  <title>FD</title>
+  <title>Development</title>
 </head>
 
 <body>
@@ -24,7 +24,6 @@
         <span></span>
       </div>
     </div>
-
     <div id="main-navbar" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href="../">
@@ -58,6 +57,12 @@
             </a>
             <a class="navbar-item" href="../Foundations/">
               Foundations docs
+            </a>
+            <a class="navbar-item" href="../Development/">
+              Development docs
+            </a>
+            <a class="navbar-item" href="../CodeReview/">
+              Code Review
             </a>
             <a class="navbar-item" href="../IIVV/">
               IIV & V
@@ -142,7 +147,7 @@
       $timekey=date("YmdHis", filemtime($dirArray[$index]));
       
       // Prettifies File Types, add more to suit your needs.
-      switch ($extn) {
+      switch ($extn){
         case "php": $extn="php"; break;
 
         case "png": $extn="PNG Image"; break;

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-  <title>Valuation</title>
+  <title>Progress Reports</title>
 </head>
 
 <body>
@@ -24,7 +24,6 @@
         <span></span>
       </div>
     </div>
-
     <div id="main-navbar" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href="../">
@@ -59,6 +58,12 @@
             <a class="navbar-item" href="../Foundations/">
               Foundations docs
             </a>
+            <a class="navbar-item" href="../Development/">
+              Development docs
+            </a>
+            <a class="navbar-item" href="../CodeReview/">
+              Code Review
+            </a>
             <a class="navbar-item" href="../IIVV/">
               IIV & V
             </a>
@@ -74,6 +79,7 @@
   <section id="project-details" class="hero is-fullheight">
     <div class="hero-body">
       <div class="container">
+        <br><br><br>
         <table class="table sortable">
           <thead>
             <tr>
