@@ -81,15 +81,13 @@
       <div class="container">
         <br><br><br>
         <table class="table sortable">
-          <thead>
-            <tr>
+          <tbody>
+          <tr>
               <th>Filename</th>
               <th>Type</th>
               <th>Size <small>(bytes)</small></th>
               <th>Date Modified</th>
             </tr>
-          </thead>
-          <tbody>
           <?php
   // Opens directory
   $myDirectory=opendir(".");
