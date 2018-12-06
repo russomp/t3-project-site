@@ -65,9 +65,6 @@
             <a class="navbar-item" href="../CodeReview/">
               Code Review
             </a>
-            <a class="navbar-item" href="../IIVV/">
-              IIV & V
-            </a>
             <hr class="navbar-divider">
             <a class="navbar-item" href="../FD/">
               Final deliverable
