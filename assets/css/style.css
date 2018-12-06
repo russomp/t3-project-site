@@ -88,6 +88,6 @@ tr td {
   }
 }
 
-table {
-  margin: 50px;
+.table {
+  margin: 50px 10px;
 }
