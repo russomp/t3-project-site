@@ -87,3 +87,7 @@ tr td {
     transition: transform 0.5s ease-out;
   }
 }
+
+table {
+  margin: 50px;
+}

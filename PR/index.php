@@ -59,6 +59,12 @@
             <a class="navbar-item" href="../Foundations/">
               Foundations docs
             </a>
+            <a class="navbar-item" href="../Development/">
+              Development docs
+            </a>
+            <a class="navbar-item" href="../CodeReview/">
+              Code Review
+            </a>
             <a class="navbar-item" href="../IIVV/">
               IIV & V
             </a>
